@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.maindiv {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border-left: 0.25vw solid #000;
+  padding-left: 2vw;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+}
+
+.gap-1vh {
+  gap: 1vh;
+}
+
+.gap-5vh {
+  gap: 5vh;
+}
+
+.gap-1vw {
+  gap: 1vw;
+}
+
+.gap-5vw {
+  gap: 5vw;
+}
+
+.margin {
+  margin: 5vh;
+}
+
+.margintop {
+  margin-top: 5vh;
+}
+
+.marginbottom {
+  margin-bottom: 5vh;
+}
+
+.mainheader {
+  /* width: 90vw; */
+  /* justify-content: center; */
+  padding: 0vh 3vw;
+}
+.lineThrough {
+  text-decoration: line-through;
+  color: #000;
+}
+
+.headerTag {
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ff6b82;
+}
+
+.justifycontent {
+  justify-content: center;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.itemname {
+  font-family: inter;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.itemdiscountprice {
+  font-family: inter;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.itemprice {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 0.75rem;
+  opacity: 0.3;
+  text-decoration: line-through;
+}
+
+.itemofferpercentage {
+  background-color: #ff6b82;
+  color: #ffffff;
+  font-family: inter;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.padding-x {
+  padding: 0vw 1vh;
+}
+
+.priceType {
+  color: #000000;
+  font-size: 0.75rem;
+  font-family: inter;
+  font-weight: 400;
+}
+
+.gap-10vh {
+  gap: 10vh;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.deliverystatusText {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ff6b82;
+}
+
+.totalprice {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text-end {
+  align-content: end;
+}
+
+.btn {
+  text-align: center;
+  border-radius: 2px;
+  background-color: #ff6b82;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  /* text-align: left; */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  padding: 5vh;
+  cursor: pointer;
+}
+
+.margin-y {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.lasttext {
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  /* opacity: ; */
+  color: #00000066;
+}
+
+.margintop-n5vh {
+  margin-top: -5vh;
+}
+
+.justifycontentend {
+  justify-content: flex-end;
+}
+
+.itemdetails {
+  display: none;
+}
+
+.radioinput:checked + .itemlabel + .itemdetails {
+  display: block;
+}
+
+.marginleft-5vw {
+  margin-left: 5vw;
+}
+
+.item {
+  border: 0.2vh solid #c8c8c8;
+  padding: 3vh 3vw;
+  padding-top: 5vh;
+}
+
+.item :hover {
+  cursor: pointer;
+}
+
+.table {
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.dropdown {
+  background: #ffffff;
+  border: 0.9px solid #d9d9d9;
+  padding: 0.5vw 1.5vh;
+}
+
+.itempadding {
+  padding: 0vh 3vw;
+}
+
+.divider {
+  border-top: 0.5vh solid #c8c8c8;
+  width: 35%;
+  margin: auto;
+}
+
+.highlightText {
+  position: absolute;
+  right: 5%;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: #ff6b82;
+  color: #ffffff;
+  padding: 1%;
+  border-radius: 5px;
+}
